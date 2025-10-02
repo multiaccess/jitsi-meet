@@ -144,7 +144,7 @@ class WelcomePage extends AbstractWelcomePage<IProps> {
         super.componentDidMount();
 
         document.body.classList.add("welcome-page");
-        document.title = interfaceConfig.APP_NAME;
+        document.title = "Multiaccess Meet";
 
         if (this.state.generateRoomNames) {
             this._updateRoomName();
